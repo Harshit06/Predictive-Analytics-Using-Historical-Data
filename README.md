@@ -134,14 +134,27 @@ The pipeline evaluates all three on a **chronological train/test split** (no shu
 
 ## 📈 Sample Outputs
 
-Running `main.py` generates the following in `outputs/plots/`:
+Running `main.py` generates the following charts in `outputs/plots/`. Once generated, they'll render right here in this README (on GitHub) since the images live inside the repo folder.
 
-1. `01_historical_trend.png` — raw historical trend
-2. `02_seasonal_decomposition.png` — trend / seasonality / residual breakdown
-3. `03_predictions_vs_actual.png` — all models' forecasts vs actual values
-4. `04_metric_comparison.png` — bar charts comparing MAE / RMSE / R²
-5. `05_feature_importance.png` — which features drive the Random Forest's predictions
-6. `06_rf_residuals.png` — residual diagnostics
+**1. Historical Trend** — raw historical trend
+![Historical Trend](outputs/plots/01_historical_trend.png)
+
+**2. Seasonal Decomposition** — trend / seasonality / residual breakdown
+![Seasonal Decomposition](outputs/plots/02_seasonal_decomposition.png)
+
+**3. Predictions vs Actual** — all models' forecasts vs actual values
+![Predictions vs Actual](outputs/plots/03_predictions_vs_actual.png)
+
+**4. Metric Comparison** — bar charts comparing MAE / RMSE / R²
+![Metric Comparison](outputs/plots/04_metric_comparison.png)
+
+**5. Feature Importance** — which features drive the Random Forest's predictions
+![Feature Importance](outputs/plots/05_feature_importance.png)
+
+**6. Residual Diagnostics** — where and how the model gets it wrong
+![Residual Diagnostics](outputs/plots/06_rf_residuals.png)
+
+> ⚠️ **Important:** These images only show up on GitHub *after* you run `python main.py` (which creates the PNG files) and then `git add`, `commit`, and `push` them. GitHub can't display an image that doesn't exist in the repo yet — run the pipeline first, then push.
 
 ---
 
