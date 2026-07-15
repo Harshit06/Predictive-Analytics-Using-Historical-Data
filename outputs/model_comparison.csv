@@ -1,0 +1,4 @@
+Model,MAE,RMSE,MAPE (%),R2 Score
+Linear Regression,39.903,66.975,3.158,0.6687
+Random Forest,76.81,102.375,5.916,0.2259
+ARIMA,196.98,226.607,15.269,-2.7928

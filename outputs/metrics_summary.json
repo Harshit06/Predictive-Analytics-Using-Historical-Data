@@ -1,0 +1,23 @@
+[
+  {
+    "Model": "Linear Regression",
+    "MAE": 39.903,
+    "RMSE": 66.975,
+    "MAPE (%)": 3.158,
+    "R2 Score": 0.6687
+  },
+  {
+    "Model": "Random Forest",
+    "MAE": 76.81,
+    "RMSE": 102.375,
+    "MAPE (%)": 5.916,
+    "R2 Score": 0.2259
+  },
+  {
+    "Model": "ARIMA",
+    "MAE": 196.98,
+    "RMSE": 226.607,
+    "MAPE (%)": 15.269,
+    "R2 Score": -2.7928
+  }
+]
